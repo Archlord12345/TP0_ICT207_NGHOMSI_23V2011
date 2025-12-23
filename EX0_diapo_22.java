@@ -17,5 +17,10 @@ public class Point{
 public class EX0_diapo_22{
      public static void main(String[] argv){
         int b;
+         System.out.println("\n utitialison un point p1");
+         Point p1 = new Point();
+         p1.deplacer(4,5);
+         System.out.println("\n affichons les nouvelle coordonnées de notre point ");
+         System.out.println("\n p1 a pour coordonées x="+p1.x+" et y="+p1.y);
      }
 }
