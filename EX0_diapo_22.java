@@ -1,4 +1,4 @@
-public class Point{
+class Point{
     double x,y;
     Point (double a, double b){
         int n;
